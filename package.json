@@ -1,0 +1,21 @@
+{
+  "name": "html-pug-to-js-loader",
+  "version": "1.0.0",
+  "description": "html to es6 modules js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "html",
+    "es6",
+    "js",
+    "html2js"
+  ],
+  "author": "hlmcdh@163.com",
+  "license": "MIT",
+  "dependencies": {
+    "html2js": "^0.2.0",
+    "pug": "^2.0.0-rc.1"
+  }
+}
