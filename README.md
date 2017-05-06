@@ -4,11 +4,7 @@
 
 
 ##### 使用步骤图示
-```
-graph LR
-安装模块-->WebPack配置
-WebPack配置-->代码引用
-```
+![](1.png)
 
 ##### 使用步骤详细
 ###### 1. 安装loader模块
@@ -34,19 +30,10 @@ var h = require('./b.html');
 
 ##### 4. 工作示意图
 ###### HTML转为JS
-```
-graph LR
-HTML-->JS字符串
-JS字符串-->ES6或CommonJs模块
-```
+![](2.png)
 ###### Pug转为JS
-```
-graph LR
-Pug-->HTML
-HTML-->JS字符串
-JS字符串-->ES6或CommonJs模块
-```
+![](3.png)
 
 ##### 5. 注意事项
 ###### query的wrap有两个可选值 es6 或 commonjs 
-![](1.png)
+![](4.png)
