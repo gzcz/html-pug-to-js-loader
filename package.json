@@ -12,6 +12,10 @@
     "js",
     "html2js"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cdhjava/html-pug-to-js-loader.git"
+  },
   "author": "hlmcdh@163.com",
   "license": "MIT",
   "dependencies": {
