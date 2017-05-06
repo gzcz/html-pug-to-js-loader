@@ -1,6 +1,6 @@
 {
   "name": "html-pug-to-js-loader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "html to es6 modules js",
   "main": "index.js",
   "scripts": {
