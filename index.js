@@ -12,13 +12,13 @@ module.exports = function(source, other) {
     reg = new RegExp('^<([^>\s]+)[^>]*>(.*?<\/\\1>)?$');
     if (!reg.test(source)) {
       html = pug.render(source, {});
-      options = {
-        mode: 'compress',
-        wrap: false
-      };
     } else {
       html = source;
     }
+    options = {
+      mode: 'compress',
+      wrap: false
+    };
     newSource = html2js(html, options);
     tmpWrap = ((ref = this.query) != null ? ref.wrap : void 0) || null;
     if ('commonjs' === tmpWrap) {

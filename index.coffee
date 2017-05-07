@@ -13,12 +13,14 @@ module.exports = (source, other) ->
     if not reg.test source
       # 对pug文件进行编译
       html = pug.render source, {}
-      options =
-        mode: 'compress'
-        wrap: false
     # 如果是html，则直接转js
     else
       html = source
+
+    # html2js选项
+    options =
+      mode: 'compress'
+      wrap: false
 
     # html转为js
     newSource = html2js html, options
